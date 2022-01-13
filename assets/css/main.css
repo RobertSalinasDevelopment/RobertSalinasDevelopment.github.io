@@ -2812,6 +2812,17 @@ input, select, textarea {
 		padding: 0;
 		list-style: none;
 	}
+		.features .image {
+			display:inline-block;
+			padding: 0.65em;
+		}
+
+		.features .image img {
+			display: block;
+			width: 16em;
+			height: 16em;
+			object-fit: cover;
+		}
 
 		.features li {
 			width: calc(33.33333% - 2em);
@@ -2858,6 +2869,8 @@ input, select, textarea {
 					}
 
 		}
+
+		
 
 /* Statistics */
 
@@ -3690,6 +3703,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
+		justify-content: flex-start;
 		padding: 5em 5em 3em 5em ;
 		width: calc(100% + 2em);
 		margin: 0 0 3em -2em;
@@ -3706,6 +3720,8 @@ input, select, textarea {
 			font-size: 0.8em;
 			text-align: center;
 		}
+
+		
 
 		@media screen and (max-width: 1280px) {
 
